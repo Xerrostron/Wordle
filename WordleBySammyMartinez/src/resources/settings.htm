@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordle and Absurdle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+       
+        ol li p {
+        font-size: .9em; 
+        color: #555;
+        line-height: 1.6;
+        font-weight: normal
+        }
+
+        p {
+         font-size: 1em;
+         color: #555;
+         line-height: 1.6;
+        }
+        .game-container {
+            background-color: #e0e7ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Command Line Parameters</h1>
+    <p>This code can be ran with the command line parameters: "absurdle" and "random"</p>
+    
+        <h2> How To Run A Java Program With Command Line Parameters
+            <ol>
+                <li> 
+                    <h3>
+                        Compile the Program
+                    </h3>
+                        Example compilation: javac ProgramName.java              
+                 </li>
+                 <li>
+                    <h3>
+                        Run the Program and Pass in the Command Line Parameters
+                    </h3>
+                        Example of Running with Parameters: 
+                        <p>&nbsp;&nbsp;&nbsp;java ProgramName arg1 arg2 argX....argX</p>
+                 </li>
+            </ol>
+
+        </h2>
+
+
+        <h2>absurdle As Command Line Parameter</h2>
+       
+        <p>Choosing "absurdle" as the command line parameter will launch the game as Absurdle. In this 
+            variation of Wordle, there is no hidden word. Instead, each guess will narrow down the list of words
+            into smaller and smaller pools, with each pool based on a guess being chosen by the largest size. This is done
+            to keep the game going as long as possible. 
+        </p>
+    
+
+    
+        <h2>random As Command Line Parameter</h2>
+        <p>
+            Choosing "random" as the command line parameter will randomly launch the game in either Wordle or Absurdle. Both
+            games have a 50% chance of being chosen. 
+        </p>
+    
+</body>
+</html>
